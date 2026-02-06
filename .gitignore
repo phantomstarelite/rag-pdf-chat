@@ -1,0 +1,68 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# LangChain / RAG artifacts
+# ===============================
+# FAISS vector index (can be regenerated)
+faiss_index/
+*.faiss
+*.pkl
+
+# ===============================
+# HuggingFace / ML cache
+# ===============================
+.cache/
+huggingface/
+hf_cache/
+sentence_transformers/
+
+# ===============================
+# Ollama / Local models
+# ===============================
+.ollama/
+
+# ===============================
+# Test / temp files
+# ===============================
+tmp/
+temp/
+output/
+
+# ===============================
+# Data (optional – comment out if you want PDFs tracked)
+# ===============================
+data/*.pdf
